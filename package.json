@@ -1,0 +1,26 @@
+{
+  "name": "porto-pbo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vodapermadi/pbo-portofolio.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vodapermadi/pbo-portofolio.github.io/issues"
+  },
+  "homepage": "https://github.com/vodapermadi/pbo-portofolio.github.io#readme",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

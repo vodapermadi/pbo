@@ -1,0 +1,9 @@
+persiapan : 1.tailwindcss
+	  2.code editor(vscode,sublime,atom,dll)
+	  3.command line (git bash,cmd,powershell)
+
+1.membuat navbar
+2.membuat bio dan cerita singkat
+3.membuat box content
+4.membuat contact
+5.membuat footer

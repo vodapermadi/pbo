@@ -9,9 +9,9 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
       rel="stylesheet"
-    />
-  </head>
-  <body class="w-full h-full bg-blue-300">
+      />
+    </head>
+    <body class="w-full h-full bg-blue-300 relative">
     <main class="flex flex-col items-center">
       <!-- Navbar -->
 
@@ -40,10 +40,14 @@
         class="w-full h-full container mt-8 flex justify-center items-center bg-gradient-to-t from-blue-400 to-indigo-700 rounded shadow-lg"
         id="about"
       >
-        <div class="flex w-full justify-center items-center px-7">
-          <div class="w-1/2 flex justify-center py-5">
+        <div class="flex w-full justify-center items-center relative px-7">
+          <div class="absolute w-full h-full" id="particles-js"></div>
+
+          <!-- left content -->
+
+          <div class="w-1/2 z-20 flex justify-center py-5">
             <div
-              class="w-2/3 border hover:scale-105 duration-300 flex flex-col justify-center items-center py-5 text-center border-indigo-400 rounded bg-gradient-to-t from-blue-400 to-indigo-600 text-white"
+            class="w-2/3 border hover:scale-105 duration-300 flex flex-col justify-center items-center py-5 text-center border-indigo-400 rounded bg-gradient-to-t from-blue-400 to-indigo-600 text-white"
             >
               <img
                 src="./img/profil.jpeg"
@@ -58,7 +62,10 @@
               >
             </div>
           </div>
-          <div class="w-1/2 flex justify-center py-5">
+
+          <!-- right content -->
+
+          <div class="w-1/2 flex justify-center py-5 z-20">
             <div
               class="w-full border flex flex-col justify-center items-center py-5 text-center border-indigo-400 rounded bg-gradient-to-t from-blue-400 to-indigo-600 text-white shadow-xl"
             >
@@ -86,9 +93,14 @@
         id="project"
       >
         <div class="flex w-full justify-center items-center px-7">
-          <div class="py-5 w-full flex flex-col justify-center items-center capitalize">
+          <div
+            class="py-5 w-full flex flex-col justify-center items-center capitalize"
+          >
             <span class="text-center w-full font-bold text-3xl">Teknologi</span>
             <div class="flex justify-center items-center my-5">
+
+              <!-- content box -->
+
               <div
                 class="py-4 px-6 mr-2 flex flex-col justify-center items-center border-2 hover:scale-105 duration-300 shadow border-blue-300 bg-blue-500 rounded"
               >
@@ -104,8 +116,8 @@
               <div
                 class="py-4 px-6 border-2 hover:scale-105 duration-300 shadow border-blue-300 bg-blue-500 flex flex-col justify-center items-center rounded mx-2"
               >
-                <i class="fa-brands fa-vuejs fa-5x"></i>
-                <span class="font-semibold text-lg">Vue js</span>
+                <i class="fa-brands fa-node-js fa-5x"></i>
+                <span class="font-semibold text-lg">Node Js</span>
               </div>
               <div
                 class="py-4 px-6 border-2 hover:scale-105 duration-300 shadow border-blue-300 bg-blue-500 flex flex-col justify-center items-center rounded"
@@ -124,18 +136,18 @@
         </div>
       </div>
 
-      <!-- project -->
-
-      <div></div>
-
       <!-- contact -->
 
       <div
         class="w-full h-full container mt-8 flex justify-center items-center bg-blue-700 rounded shadow-lg"
         id="contact"
       >
-        <div class="flex w-full justify-center items-center px-7">
-          <div class="w-3/4 flex justify-center py-5">
+        <div class="flex w-full justify-center items-center px-7 relative">
+          <div class="absolute w-full h-full" id="particles-js2"></div>
+          <div class="w-3/4 flex justify-center py-5 z-20">
+
+            <!-- box contact -->
+
             <div
               class="w-1/2 border hover:scale-105 duration-300 flex flex-col justify-center items-center py-5 text-center border-indigo-400 rounded bg-blue-400 text-white"
             >
@@ -148,15 +160,24 @@
                 >Philipus Voda Permadi</span
               >
               <div class="mt-4 font-semibold text-lg flex flex-col gap-2">
-                <a href="wa.me/628115762211" class="text-center flex justify-start items-center">
+                <a
+                  href="wa.me/628115762211"
+                  class="text-center flex justify-start items-center"
+                >
                   <i class="fa fa-brands fa-whatsapp fa-2x"></i>
                   <span class="ml-2 hover:underline">08115762211</span>
                 </a>
-                <a href="https://www.instagram.com/cuma_voda/" class="text-center flex justify-start items-center">
+                <a
+                  href="https://www.instagram.com/cuma_voda/"
+                  class="text-center flex justify-start items-center"
+                >
                   <i class="fa fa-brands fa-instagram fa-2x"></i>
                   <span class="ml-2 hover:underline">cuma_voda</span>
                 </a>
-                <a href="https://github.com/vodapermadi" class="text-center flex justify-start items-center">
+                <a
+                  href="https://github.com/vodapermadi"
+                  class="text-center flex justify-start items-center"
+                >
                   <i class="fa fa-brands fa-github fa-2x"></i>
                   <span class="ml-2 hover:underline">vodapermadi</span>
                 </a>
@@ -169,15 +190,25 @@
       <!-- footer -->
 
       <div class="w-full py-8 bg-blue-700 mt-10 text-center">
-        <span class="text-white font-semibold">😎Created By
-          <a href="https://github.com/vodapermadi" class="underline text-white font-semibold hover:scale-105">Voda permadi</a>
+        <span class="text-white font-semibold"
+          >😎Created By
+          <a
+            href="https://github.com/vodapermadi"
+            class="underline text-white font-semibold hover:scale-105"
+            >Voda permadi</a
+          >
         </span>
       </div>
-
     </main>
     <script
       src="https://kit.fontawesome.com/657d253784.js"
       crossorigin="anonymous"
     ></script>
+    <script src=
+        "/node_modules/particles.js/particles.js">
+    </script>
+    <script src=
+        "/node_modules/particles.js/demo/js/app.js">
+    </script>
   </body>
 </html>
